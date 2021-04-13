@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.Benefits
+{
+    
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content: flex-start;
+    padding-bottom: 2vh;
+}
+.Benefit
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-left: 1vh;
+    align-self: center;
+    max-width:45%;
+    font-family:  'Roboto', sans-serif;
+}
+.Benefitheader
+{
+    font-family:  'Roboto', sans-serif;
+    font-size: 3.5vw;
+}
+.Benefitcontent
+{
+    font-family:  'Roboto', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(31, 31, 31);
+}
+.benefitimgdiv
+{
+    display: flex;
+    flex-direction: row;
+    
+    align-items:center ;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: auto;
+   max-width: 45%;
+    align-self: flex-start;
+    
+}

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.Borgosdiv
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    height: auto;
+    width: 100%;
+
+   
+}
+ .borgosteambanner
+{
+    display: flex;
+    flex-direction: column;
+align-self: flex-start;
+    background-color: rgb(5, 5, 119) ;
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+    margin-top: -16%;
+    overflow-x: hidden;
+    z-index: -1;
+    
+
+}
+.teamimg
+{
+   
+    margin:0 3% 3% .5%;
+    
+}
+.teamcontent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-self: flex-end;
+    margin-left: 5%;
+    width: auto;
+    height: auto;
+    margin-top: 10%;
+
+ 
+
+} 
+.teamheader
+{ font-family: 'Fredoka One', bold;
+    font-size:3.5vw;
+    -webkit-text-stroke: .2vh rgb(65, 64, 64);
+	-webkit-text-fill-color: white;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+.teamheader2
+
+{
+    font-family:  'Roboto', sans-serif;
+    font-size: 3.2vw;
+    display: flex;
+    text-align: left;
+    flex-wrap: nowrap;
+    margin-top: .5vh;
+
+} 
+.teamContext
+{font-family:  'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: left;
+    font-size: 1.2vw;
+    margin-top: -1vh;
+}

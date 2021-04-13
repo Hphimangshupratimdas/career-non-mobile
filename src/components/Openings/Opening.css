@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+.openingdiv
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items:center;
+    height: auto;
+    width: 100%;
+    margin-left:2vh ;
+    margin-top: 3vh;
+    padding-right: 2vh;
+}
+.openingheader
+{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+.openingheader1
+{
+    
+    font-family: 'Fredoka One', bold;
+    font-size:6vh;
+    -webkit-text-stroke: .2vh rgb(65, 64, 64);
+	-webkit-text-fill-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.openingheader2
+{
+     font-family:  'Roboto', sans-serif;
+    font-size: 6vh;
+    display: flex;
+    text-align: left;
+    flex-wrap: nowrap;
+    margin-left: 2%;
+}
+.openingtext
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    width: 65%;
+    height: auto;
+    font-family:  'Roboto', sans-serif;
+    font-size: 2vh;
+text-align: center;
+margin-top: -1.5vh;
+}
+.email
+{
+    color: blue;
+    font-size: larger;
+    margin:0%;
+    padding: 0%;
+    text-decoration: none;
+    cursor: pointer;
+}
+

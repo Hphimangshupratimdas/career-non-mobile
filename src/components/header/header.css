@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header,.header2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+.header2{
+    background-color: white;
+}
+.headericon
+{
+    height: auto;
+    width:25vh ;
+    align-self:center ;
+    z-index: 1;
+    margin-top: 1%;
+    margin-left: 5%;
+    
+}
+.headeroptions
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+margin-right: 15vh;
+    list-style-type: none;
+    text-decoration: none;
+}
+a{display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    text-decoration:none;
+    width: auto;
+    margin-right: 4vh;
+    font-family:  'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: small;
+    position: relative;
+    transition: all 0.4s ease;
+    
+}
+a::after { 
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: #242424;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    flex-wrap: nowrap;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  a:hover { color: #2d30f0; }
+  a:hover::after { width: 100%; }
+
+  .menu
+  {
+      height: 5%;
+      width: 5%;
+      align-self: center;
+      padding-right: 5vh;
+  }
+ 
+  
