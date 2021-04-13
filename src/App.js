@@ -13,7 +13,7 @@ function App() {
     <BorgosTeam/>
     <Openings/>
     <Benefits/>
-<Business/>
+    <Business/>
     </div>
   );
 }
