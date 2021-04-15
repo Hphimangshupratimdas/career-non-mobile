@@ -1,13 +1,16 @@
 import React from 'react';
 import './Benifits.css';
 import Benefitimg_5 from '../images/BenefitsImage_5.png';
+import BenefitsImage_3 from '../images/BenefitsImage_3.jpg';
+import useWindowDimensions from '../Tools/Windowsize';
 const Benefits=()=>
-{
+{  const { height, width } = useWindowDimensions();
+const ratio=width/height;
     return(
-        <div className="Benefits">
-        <div className="Benefit">
-        <h3 className="Benefitheader">BENEFITS</h3>
-       <h2 className="Benefitcontent"> <li >Flexible leave policy – You don’t have to 
+        <div className={ratio>=1.2?"Benefits":"Benefits1"}>
+        <div className={ratio>=1.2?"Benefit":"Benefit1"}>
+        <h3 className={ratio>=1.2?"Benefitheader":"Benefitheader2"}>BENEFITS</h3>
+       <h2 className={ratio>=1.2?"Benefitcontent":"Benefitcontent2"}> <li >Flexible leave policy – You don’t have to 
         look at your Leave balance when planning that road-trip or attending a friend’s wedding.</li>
         <li >Flexible work hours and telecommuting – 
         No prior approvals needed. Just keep your immediate team and customers informed.</li>
@@ -22,7 +25,8 @@ const Benefits=()=>
         <li>Re-Location Assist.</li></h2>
         </div>
         
-        <img className="benefitimgdiv" src={ Benefitimg_5} alt="img"/>
+        {ratio>=1.2?  <img className="benefitimgdiv" src={ Benefitimg_5} alt="img"/>
+        : <img className="benefitimgdiv1" src={  BenefitsImage_3} alt="img"/>}
       
 
         </div>

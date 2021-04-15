@@ -10,6 +10,24 @@
     justify-content:space-evenly;
     align-content: flex-start;
     padding-bottom: 2vh;
+    overflow-x: hidden;
+   
+    
+}
+.Benefits1
+{
+    
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 2vh;
+    margin-top: 2%;
+    overflow-x: hidden;
+    
 }
 .Benefit
 {
@@ -19,20 +37,55 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     margin-left: 1vh;
-    align-self: center;
-    max-width:45%;
-    font-family:  'Roboto', sans-serif;
+    align-self: flex-start;
+    max-width: 45%;
+    
+}
+.Benefit1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 1vh;
+    max-width: 70%;
+    z-index: 3;
+    
+    padding:0 2% 0 2%;
+      
 }
 .Benefitheader
 {
-    font-family:  'Roboto', sans-serif;
-    font-size: 3.5vw;
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight:500px;
+    font-size:3.5vw;
+}
+.Benefitheader2
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500px;
+    font-size:6.5vw;
+    align-self: center;
+    color: rgb(255, 255, 255);
 }
 .Benefitcontent
 {
-    font-family:  'Roboto', sans-serif;
+    font-family:  'Poppins', sans-serif;
+    font-weight:300;
     font-size: 1.2vw;
     color: rgb(31, 31, 31);
+}
+.Benefitcontent2
+{
+    font-family:   'Poppins', sans-serif;
+    font-weight:300;
+    font-size: 2vw;
+    color: rgb(255, 255, 255);
+    align-self: center;
+    margin-top: -8%;
+    padding: 2%;
 }
 .benefitimgdiv
 {
@@ -46,4 +99,16 @@
    max-width: 45%;
     align-self: flex-start;
     
+}
+.benefitimgdiv1
+{
+    display: flex;
+
+    background-color: aqua;
+   width: 110%;
+    align-self: center;
+    margin-top: -75%;
+    z-index: 2;
+    
+    filter:brightness(50%)
 }

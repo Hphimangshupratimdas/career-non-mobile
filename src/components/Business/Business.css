@@ -19,6 +19,22 @@
     z-index: -3;
 
 }
+.treebg2
+{
+    align-self: flex-start;
+    max-width:65%;
+    margin-top: -42%;
+    margin-left: -25%;
+    z-index: 1;
+}
+.AdBackground
+{
+    align-self: flex-start;
+    width:100%;
+    
+    margin-top: -50%;
+  
+}
 .businessbg
 {
     align-self: center;
@@ -44,6 +60,15 @@
     margin-top: -74%;
     width: 45%;
 }
+.imgboy2
+{
+    align-self: center;
+    margin-top: -100%;
+    width: 70%;
+    
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+  filter: drop-shadow(5px 5px 5px #222);
+}
 .businesscontent
 {
     align-self: center;
@@ -52,28 +77,73 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-
+padding: 2%;
+border-radius: 2%;
     width: 45%;
-    margin-right:35% ;
+    margin-right:38% ;
     margin-top: -45%;
+}
+.businesscontent1
+{
+    align-self: center;
+   align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+    max-width: 65%;
+    margin-top: 0%;
+    
+    text-align: center;
+    z-index: 3;
 }
 .businessheader1
 {
-    font-family: 'Fredoka One', bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500px;
     font-size:3.5vw;
     color: aliceblue;
 }
+.businessheader11
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500px;
+    font-size:6.5vw;
+    color: aliceblue;
+    -webkit-text-stroke: .2vh rgb(65, 64, 64);
+	-webkit-text-fill-color: white;
+    
+}
 .businessheader2
 {
+    font-family: 'Poppins', sans-serif;
+    font-weight:500px;
     font-size:3.5vw;
-    color: rgb(245, 244, 244);
+    color: rgb(255, 255, 255);
     font-family:  'Roboto', sans-serif;
+
+}
+.businessheader22
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500px;
+    font-size:6.5vw;
+    color: rgb(26, 25, 25);
+    margin-top: -10%;
 }
 .businesscontext
 {
     color: rgb(245, 244, 244);
-    font-family:  'Roboto', sans-serif;
-    font-size:1.2vw;
+    font-family:  'Poppins', sans-serif;
+    font-weight:300;
+    font-size: 1.2vw;
+}
+.businesscontext1
+{
+    color: rgb(24, 23, 23);
+    font-family:  'Poppins', sans-serif;
+    font-weight:300;
+    font-size: 2vw;
+    margin-top: -3%;
 }
 .home
 {
@@ -84,7 +154,22 @@
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
+   
     
+}
+.home1
+{
+    align-self: flex-start;
+    width:100% ;
+    margin-top:-10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    z-index: 2;
+
+   
 }
 .homebg
 {
@@ -92,6 +177,13 @@ display: flex;
 width: 100%;
 height: 100%;
 align-self: flex-start;
+}
+.homebg1
+{
+    display: flex;
+width: 100%;
+align-self: center;
+
 }
 .homecontain
 {
@@ -103,7 +195,18 @@ align-self: flex-start;
     margin-top: -47%;
     width: 66%;
 }
-.homeheader
+.homecontain1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    align-self: center;
+    margin-top: -110%;
+    width: 90%;
+    
+}
+.Homeheader
 {
     display: flex;
     flex-direction: row;
@@ -113,9 +216,25 @@ align-self: flex-start;
     align-self: flex-start;
     
 }
+.Homeheader1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    align-self: flex-start;
+    margin-top: -5%;
+
+}
 .Logo
 {
 width: 20%;
+
+}
+.Logo1
+{
+width: 30%;
 
 }
 .topdash
@@ -146,13 +265,26 @@ width: 20%;
 .homeheader
 {
     font-size: 1.5vw;
-    font-family:  'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.homeheader1
+{
+    font-size: 2.5vw;
+    font-family: 'Poppins', sans-serif;
     color: white;
 }
 .homecontext
 {
     font-size: .8vw;
-    font-family:  'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none; 
+}
+.homecontext1
+{
+    font-size:1.5vw;
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-decoration: none; 
 }
@@ -180,13 +312,27 @@ height: 100%;
 
 .mapdiv
 {
-    background-color: rgb(136, 136, 245);
-    width: 70%;
-    height: 10vh;
-    align-self: flex-start;
-    background-color: lightblue;
     
-
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+.mapdiv1
+{
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+.map
+{
+    width: 100%;
 }
 .social
 {
@@ -196,10 +342,10 @@ height: 100%;
 }
 .homeiocn
 {
-background-color: white;
-margin-left: 1%;
+
+margin-left: 2%;
 height: 100%;
-width: 25%;
+width: 15%;
 }
 .homefooter
 {
@@ -207,5 +353,18 @@ width: 25%;
     padding: .5%;
     background-color: rgb(4, 4, 66);
     margin-left:-18%;
-    margin-top: 5%;
+    margin-top: -1%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.homefooter1
+{
+    width: 99%;
+    padding: .5%;
+    background-color: rgb(4, 4, 66);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
 }

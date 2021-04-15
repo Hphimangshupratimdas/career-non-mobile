@@ -7,10 +7,10 @@ const Header = () => {
     const { height, width } = useWindowDimensions();
     const ratio=width/height;
     
-    return (<div className={ratio>=.98?"header":"header2"}>
+    return (<div className={ratio>=1.2?"header":"header2"}>
         <img className="headericon" src={headerlogo} alt="logo" />
         
-            {ratio>=.98?<ul className="headeroptions">
+            {ratio>=1.2?<ul className="headeroptions">
                 <li>
                     <a href='#' className="headeroption">Home</a>
                 </li>
