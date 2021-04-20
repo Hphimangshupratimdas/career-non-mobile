@@ -8,7 +8,7 @@ import facebook from '../images/facebook.png';
 import linkedin from '../images/linkedin.png';
 import skype from '../images/skype.png';
 import AdBackground from '../images/AdBackground.jpg';
-import Ad from '../images/Ad.png';
+import Ad from '../images/Ad.jpg';
 import map from '../images/map.png';
 import './Business.css';
 import useWindowDimensions from '../Tools/Windowsize';
