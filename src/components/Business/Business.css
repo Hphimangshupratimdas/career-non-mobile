@@ -16,7 +16,7 @@
 {
     align-self: flex-start;
     max-width:20%;
-    z-index: -3;
+    z-index: 4;
 
 }
 .treebg2
@@ -38,27 +38,33 @@
 .businessbg
 {
     align-self: center;
-    width: 80%;
-    margin-top: -15%;
+    width: 100%;
+    margin-top: -27%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content:flex-start;
     align-items: center;
+
     
 }
 .adbg
 {
     
-    align-self: flex-start;
+    align-self: center;
     width: 100%;
+    margin-top: 10%;
     
 }
 .imgboy
 {
     align-self: flex-end;
     margin-top: -74%;
+    margin-right: 5%;
     width: 45%;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+    
 }
 .imgboy2
 {
@@ -72,16 +78,10 @@
 .businesscontent
 {
     align-self: center;
-    backdrop-filter: blur(5px);
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-padding: 2%;
-border-radius: 2%;
     width: 45%;
-    margin-right:38% ;
+    margin-right:20% ;
     margin-top: -45%;
+
 }
 .businesscontent1
 {
@@ -101,7 +101,8 @@ justify-content: flex-start;
     font-family: 'Poppins', sans-serif;
     font-weight:500px;
     font-size:3.5vw;
-    color: aliceblue;
+    -webkit-text-stroke: .2vh rgb(65, 64, 64);
+	-webkit-text-fill-color:transparent;
 }
 .businessheader11
 {
@@ -118,8 +119,9 @@ justify-content: flex-start;
     font-family: 'Poppins', sans-serif;
     font-weight:500px;
     font-size:3.5vw;
-    color: rgb(255, 255, 255);
+    color: rgb(26, 25, 25);
     font-family:  'Roboto', sans-serif;
+    margin-top:-10%;
 
 }
 .businessheader22
@@ -132,10 +134,12 @@ justify-content: flex-start;
 }
 .businesscontext
 {
-    color: rgb(245, 244, 244);
+    color: rgb(20, 20, 20);
     font-family:  'Poppins', sans-serif;
     font-weight:300;
     font-size: 1.2vw;
+    margin-top: -6%;
+    max-width: 70%;
 }
 .businesscontext1
 {
@@ -148,13 +152,14 @@ justify-content: flex-start;
 .home
 {
     align-self: center;
-    width:95% ;
+    width:100% ;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
-   
+    z-index: 1;
+    margin-top: 6%;
     
 }
 .home1
@@ -174,9 +179,11 @@ justify-content: flex-start;
 .homebg
 {
 display: flex;
-width: 100%;
-height: 100%;
-align-self: flex-start;
+width: 120%;
+height: 120%;
+margin-left: 6%;
+align-self: center;
+
 }
 .homebg1
 {
@@ -190,10 +197,11 @@ align-self: center;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-items: start;
+    justify-content: space-between;
     align-self: center;
-    margin-top: -47%;
-    width: 66%;
+    margin-top: -50%;
+    width: 85%;
+    
 }
 .homecontain1
 {
@@ -254,12 +262,29 @@ width: 30%;
     width: 100%;
     align-self: flex-start;
 }
+.homeinfo1
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    align-self: flex-start;
+}
 .Company
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    
+}
+.Company1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
     
 }
 .homeheader
@@ -291,6 +316,7 @@ width: 30%;
 .usa{
     margin-left: 2vh;
 }
+
 .homemapdiv
 {
 display: flex;
@@ -305,7 +331,7 @@ height: auto;
     display: flex;
 flex-direction: column;
 align-items: flex-start;
-justify-content:space-evenly;
+justify-content:space-between;
 height: 100%;
 
 }
@@ -338,33 +364,58 @@ height: 100%;
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-start;
+    
+    
+    
 }
+.social1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
 .homeiocn
 {
 
-margin-left: 2%;
+margin-left: 0%;
 height: 100%;
-width: 15%;
+width: 20%;
+padding-right: 2%;
+}
+.homeiocn1
+{
+
+margin-left: 0%;
+height: 100%;
+width: 20%;
+margin-left: 5%;
 }
 .homefooter
 {
-    width: 130%;
+    width: 135%;
     padding: .5%;
     background-color: rgb(4, 4, 66);
-    margin-left:-18%;
-    margin-top: -1%;
-    align-items: center;
+    margin-left:0%;
+    margin-top: -3%;
+    align-items: flex-start;
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    padding-left:35% ;
+    align-self: center;
 }
 .homefooter1
 {
     width: 99%;
     padding: .5%;
     background-color: rgb(4, 4, 66);
-    align-items: center;
+    align-items: flex-start;
     display: flex;
-    justify-content: center;
-    
+    justify-content: start;
+    padding-left:15% ;
+    margin-top: 5%;
 }
+
+

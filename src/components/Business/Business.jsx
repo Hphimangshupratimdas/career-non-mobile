@@ -1,15 +1,14 @@
 import React from 'react';
-import BorgosTree from '../images/BorgosTree.jpg'
 import BorgosTree2 from '../images/BorgosTree2.png'
 import AdImage from '../images/AdImage.png';
-import clip from '../images/Clip.jpg';
 import house from '../images/house.svg';
 import home from '../images/home.png';
 import Logo from '../images/Logo.png';
 import facebook from '../images/facebook.png';
 import linkedin from '../images/linkedin.png';
 import skype from '../images/skype.png';
-import AdBackground from '../images/AdBackground.png';
+import AdBackground from '../images/AdBackground.jpg';
+import Ad from '../images/Ad.png';
 import map from '../images/map.png';
 import './Business.css';
 import useWindowDimensions from '../Tools/Windowsize';
@@ -18,13 +17,13 @@ const Business = () => {
     const ratio = width / height;
     return (
         <div>  { ratio >= 1.2 ? <div className="Businessdiv">
-            <img src={BorgosTree} className="treebg" alt="" />
+            <img src={BorgosTree2} className="treebg" alt="" />
             <div className="businessbg">
-                <img src={clip} className="adbg" alt="" />
+                <img src={Ad} className="adbg" alt="" />
                 <img src={AdImage} className="imgboy" alt="" />
                 <div className="businesscontent">
                     <h2 className="businessheader1">TRANSFORM YOUR</h2>
-                    <h2 className="businessheader2">BUSINESS WITH BORGOS</h2>
+                    <h2 className="businessheader2">BUSINESS WITH<br/> BORGOS</h2>
                     <h5 className="businesscontext">Let us apply our
                     tried-and-tested capabilities to your business objectives.
                     To learn more about our outsourcing services tailored to
@@ -93,7 +92,7 @@ const Business = () => {
                             </div>
                             <div className="Company">
                                 <h2 className="homeheader">Social Media </h2>
-                                <div calssName="social">
+                                <div className="social">
                                     <img className="homeiocn" src={facebook} alt="facebook" />
                                     <img className="homeiocn" src={linkedin} alt="facebook" />
                                     <img className="homeiocn" src={skype} alt="facebook" />
@@ -169,7 +168,7 @@ const Business = () => {
                         <div className="mapdiv1">
                             <img src={map} className="map" alt="map" />
                         </div>
-                        <div className="homeinfo">
+                        <div className="homeinfo1">
 
                             <div className="Company">
                                 <h2 className="homeheader1">Company</h2>
@@ -198,11 +197,15 @@ const Business = () => {
                             </div>
                             <div className="Company">
                                 <h2 className="homeheader1">Social Media </h2>
-                                <div calssName="social">
+                                {ratio>=1.2?  <div className="social">
                                     <img className="homeiocn" src={facebook} alt="facebook" />
                                     <img className="homeiocn" src={linkedin} alt="facebook" />
                                     <img className="homeiocn" src={skype} alt="facebook" />
-                                </div>
+                                </div>:<div className="social2">
+                                <img className="homeiocn" src={facebook} alt="facebook" />
+                                <img className="homeiocn1" src={linkedin} alt="facebook" />
+                               <br/><span/> <img className="homeiocn" src={skype} alt="facebook" />
+                            </div>}
                             </div>
 
 

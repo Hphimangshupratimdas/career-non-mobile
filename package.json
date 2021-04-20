@@ -1,5 +1,6 @@
 {
   "name": "borgoscarrierpage",
+  "homepage": "http://borgos.in.net/career",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

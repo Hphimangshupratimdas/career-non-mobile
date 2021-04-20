@@ -22,11 +22,12 @@
     height: auto;
     width: 100%;
     
+
    
 }
  .borgosteambanner
 {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
 align-self: flex-start;
     background-color: rgb(5, 5, 119) ;
@@ -35,9 +36,18 @@ align-self: flex-start;
     width: 350%;
     margin-top: -16%;
     overflow-x: hidden;
-    z-index: -1;
-    
-
+    z-index: -1; */
+    height:50vmax;
+    width: 120%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-top: -8%;
+overflow:hidden;
+display: flex;
+flex-direction: column;
+align-self: center;
+justify-content: flex-end;
+align-content:center;
 }
   .borgosteambanner2
 {
@@ -51,13 +61,16 @@ align-self: flex-start;
     width: 100%;
 margin-top: -28%;
     z-index: -1;
-    overflow-x: hidden;
+    
 
 } 
 .teamimg
 {
    
-    margin:0% 3% 3% .5%;
+   width: 100%;
+   align-self: center;
+   height:auto;
+   margin-bottom: -19%;
     
 }
 .teamimg2
@@ -74,14 +87,16 @@ align-self: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: flex-start;
+    align-content: center;
     flex-wrap: wrap;
     align-self: center;
     margin-left: 5%;
-    width: auto;
+    width: 30%;
     height: auto;
-    margin-top: 10%;
-
+    text-align: center;
+    height: auto;
+    margin-top: -15%;
+    padding-bottom: 10%;
  
 
 } 
@@ -94,10 +109,10 @@ align-self: center;
     flex-wrap: wrap;
     align-self: center;
    max-width:80%;
-   padding-bottom: 25%;
     text-align: center;
     height: auto;
-    margin-top: -85%;
+    margin-top: -80%;
+    padding-bottom: 22%;
     
     
 } 
@@ -106,11 +121,12 @@ align-self: center;
     font-weight:500px;
     font-size:3.5vw;
     -webkit-text-stroke: .2vh rgb(65, 64, 64);
-	-webkit-text-fill-color: white;
+	-webkit-text-fill-color: transparent;
     margin: 0;
     display: flex;
     flex-wrap: nowrap;
     padding: 0;
+    align-self: center;
 }
  .teamheader1
 { font-family: 'Poppins', sans-serif;
@@ -135,7 +151,7 @@ align-self: center;
     text-align: left;
     flex-wrap: nowrap;
     margin-top: .5vh;
-
+    align-self: center;
 } 
  .teamheader3
 { font-family:   'Poppins', sans-serif;
@@ -158,6 +174,7 @@ text-align: center;
     text-align: left;
     font-size: 1.2vw;
     margin-top: -1vh;
+    text-align: center; 
 }
 .teamContext2
 {font-family:  'Poppins', sans-serif;
