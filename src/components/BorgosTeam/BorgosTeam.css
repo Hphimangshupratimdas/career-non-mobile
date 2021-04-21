@@ -27,18 +27,9 @@
 }
  .borgosteambanner
 {
-    /* display: flex;
-    flex-direction: column;
-align-self: flex-start;
-    background-color: rgb(5, 5, 119) ;
-    border-radius: 50%;
-    height: auto;
-    width: 350%;
-    margin-top: -16%;
-    overflow-x: hidden;
-    z-index: -1; */
-    height:50vmax;
-    width: 120%;
+   
+    height:47vmax;
+    width: 160%;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     margin-top: -8%;
@@ -67,10 +58,11 @@ margin-top: -28%;
 .teamimg
 {
    
-   width: 100%;
+   width: 63%;
    align-self: center;
    height:auto;
-   margin-bottom: -19%;
+
+   margin-bottom: -7%;
     
 }
 .teamimg2
@@ -90,7 +82,6 @@ align-self: center;
     align-content: center;
     flex-wrap: wrap;
     align-self: center;
-    margin-left: 5%;
     width: 30%;
     height: auto;
     text-align: center;
@@ -119,8 +110,8 @@ align-self: center;
 .teamheader
 { font-family: 'Poppins', sans-serif;
     font-weight:500px;
-    font-size:3.5vw;
-    -webkit-text-stroke: .2vh rgb(65, 64, 64);
+    font-size:4vw;
+    -webkit-text-stroke: .3vh rgb(65, 64, 64);
 	-webkit-text-fill-color: transparent;
     margin: 0;
     display: flex;
@@ -145,18 +136,18 @@ align-self: center;
 
 {
     font-family:   'Poppins', sans-serif;
-    font-weight:500;
-    font-size: 3.2vw;
+    font-weight:500px;
+    font-size:4vw;
     display: flex;
     text-align: left;
     flex-wrap: nowrap;
-    margin-top: .5vh;
+    margin-top: -1.8vh;
     align-self: center;
 } 
  .teamheader3
 { font-family:   'Poppins', sans-serif;
-    font-weight:600;
-    font-size: 6.2vw;
+    font-weight:500px;
+    font-size:6.5vw;
     display: flex;
     text-align: left;
     flex-wrap: nowrap;
@@ -168,13 +159,14 @@ text-align: center;
 }
 .teamContext
 {font-family:  'Poppins', sans-serif;
-    font-weight:300;
+    font-size: .9vw;
+    font-weight:400;
     display: flex;
     flex-wrap: nowrap;
     text-align: left;
-    font-size: 1.2vw;
-    margin-top: -1vh;
+    margin-top: -3vh;
     text-align: center; 
+    width: 125%;
 }
 .teamContext2
 {font-family:  'Poppins', sans-serif;

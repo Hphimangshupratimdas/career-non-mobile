@@ -19,7 +19,7 @@
     width:25vmin ;
     z-index: 1;
     margin-top: 1%;
-    margin-left: 5%;
+    margin-left: 9%;
     
 }
 .headeroptions
@@ -42,7 +42,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     font-family:'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.1vmax;
     align-items: center;
     justify-content: space-evenly;
@@ -67,7 +67,7 @@ a::after {
     bottom: 0;
     flex-wrap: nowrap;
     transform: translateX(-50%);
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+    transition: 0.5s cubic-bezier(0.68, -0.5, 0.265, 1.55) all;
   }
   
   a:hover { color: #2d30f0; }

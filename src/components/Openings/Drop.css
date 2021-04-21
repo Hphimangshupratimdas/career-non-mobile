@@ -2,7 +2,7 @@
 
 
 .collapse-css-transition {
-  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: height 800ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
 * {
@@ -13,8 +13,8 @@
 
 .openingcontainer{
   margin: 0 auto;
-  max-width: 800px;
-padding: 2vmax;
+  max-width:55%;
+padding: 1vmax;
 display: flex;
 flex-direction: column;
 justify-content:flex-start;
@@ -32,28 +32,29 @@ align-items: center;
   height:auto;
   width: 8%;
   margin: 0%;
-  padding: 0%;
+  height: 100%;
   background-color: rgb(91, 121, 253);
-  padding: 1.2%;
+  padding: 1.2% 1.2%;
 }
 .last{
-  
-  background-color: rgb(6, 27, 122);
+  height: 100%;
+  background-color: rgb(6, 26, 112);
+  padding: 1.5% 0%;
 }
 
 .btn {
-  font-size: 100%;
+  
   background: linear-gradient(90deg, rgba(2,7,98,0.9976365546218487) 0%, rgba(58,14,251,0.9976365546218487) 100%);
   box-shadow: none;
   width: 90%;
-  margin: 0;
+  padding:0%;
+  margin: 0%;
   display: flex;
   flex-direction: row;
   align-items: center;
   text-align: center;
   cursor: pointer;
   transition: 0.3s;
-  font-size: small;
   align-self: center;
 
 }
@@ -61,8 +62,9 @@ align-items: center;
 .btn::after
 {
   content: "";
-  height: 3px;
-  background-color: #f34040;
+  height: 5px;
+  background-color: #ff8a04;
+  transition: 0.5s cubic-bezier(0.68, 0, 0.265, 1) all;
 
 }
 .btn:hover
@@ -76,6 +78,10 @@ align-items: center;
   justify-content: space-between;
   color: rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
+  font-size: 1.2vw;
+  font-weight: 300;
+  margin:0%;
+  padding: 0%;
 }
 
 
@@ -94,7 +100,7 @@ button {
   } 
 
 .content{
-  padding: 15px 10px 10px;
+  padding: 15px 10px 10px 10px;
   font-family:  'Poppins', sans-serif;
   align-self: center;
   display: flex;

@@ -13,7 +13,7 @@ const Openings = () => {
         <div className="openingdiv">
             <div className="openingheader">
                 <h1 className={ratio>=1.2?"openingheader1":"openingheader3"}>CURRENT</h1>
-                <h1 className={ratio>=1.2?"openingheader2":"openingheader4"}>OPENINGS</h1>
+                <h1 className={ratio>=1.2?"openingheader2":"openingheader4"}>PROFILES</h1>
             </div>
             <h3 className={ratio>=1.2?"openingtext":"openingtext1"}>
                 We have exciting opportunities available across all levels,

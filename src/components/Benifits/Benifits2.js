@@ -45,7 +45,8 @@ const Benifit2=()=>
        <li className="benefititems"> Maternity and paternity leave.</li>
        <img src={bf1111} className="bf" alt="icon"/>
        <li className="benefititems"> Re-Location Assist.</li> 
-        </h2>:<div className="Benefitcontent3">
+        </h2>
+        :<div className="Benefitcontent3">
         <div className="leave">
         <img src={bf111} className="bf1" alt="icon"/>
         <h2 className="benefititems1">

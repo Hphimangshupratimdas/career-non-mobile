@@ -7,6 +7,7 @@ import OpeningsIcon_3 from '../images/OpeningsIcon_3.png';
 import OpeningsIcon_4 from '../images/OpeningsIcon_4.png';
 import OpeningsIcon_5 from '../images/OpeningsIcon_5.png';
 import useOutsideClick from '../Tools/useOutsideClick';
+import ScrollIntoView from 'react-scroll-into-view';
 import plus from '../images/plus.png'
 import './Drop.css';
 const initialState = [false, false, false,false,false];
@@ -16,6 +17,7 @@ function reducer(state, { type, index }) {
     case "collapse-all":
       return [false, false, false,false,false];
     case "toggle":
+    state=[false, false, false,false,false];
       state[index] = !state[index];
       return [...state];
 
@@ -28,7 +30,7 @@ function Block({ isOpen, title, onToggle, children,openingimg }) {
   
   return (
    
-    <div className="block">
+    <div className="block" >
     <a  className="btn toggle" onClick={onToggle}>
     <img  className="opeiningimg" src={openingimg} alt="icon"/>
       <span ><h4>{title}</h4></span>
@@ -45,27 +47,29 @@ function Block({ isOpen, title, onToggle, children,openingimg }) {
 
 function Drop() {
   const [state, dispatch] = React.useReducer(reducer, initialState);
-  const ref = useRef();
-  useOutsideClick(ref, () => {
+  const allcollapseref = useRef();
+  useOutsideClick(allcollapseref, () => {
     if ( state.find(s => s === true)){ 
     dispatch({ type: "collapse-all" })}
   });
   return (
-    <div ref={ref} className="openingcontainer">
+    <div ref={allcollapseref} className="openingcontainer">
    
-
-      <Block
+    
+      <Block 
       openingimg= {OpeningsIcon_1}
         title="DevOps(3 Positions)"
         isOpen={state[0]}
         onToggle={() => dispatch({ type: "toggle", index: 0 })}
+        
       >
-        <div className="content">
+        <div  id="footer" className="content">
        <Describtion1/>
           
         </div>
       </Block>
-
+      
+      <ScrollIntoView selector="#footer">
       <Block
       openingimg= {OpeningsIcon_2}
         title="Java / J2EE Developer (3 Positions)"
@@ -73,11 +77,12 @@ function Drop() {
         onToggle={() => dispatch({ type: "toggle", index: 1 })}
         
       >
-        <div className="content">
+        <div id="footer" className="content">
           <Describtion2/>
           
         </div>
       </Block>
+      </ScrollIntoView>
 
       <Block
       openingimg= {OpeningsIcon_3}
@@ -91,6 +96,7 @@ function Drop() {
           
         </div>
       </Block>
+      <ScrollIntoView selector="#footer">
       <Block
       openingimg= {OpeningsIcon_4}
         title="Hybrid Mobile App Developer"
@@ -98,11 +104,13 @@ function Drop() {
         onToggle={() => dispatch({ type: "toggle", index: 3 })}
         
       >
-        <div className="content">
+        <div id="footer" className="content">
           <Describtion4/>
           
         </div>
       </Block>
+      </ScrollIntoView>
+      <ScrollIntoView selector="#footer">
       <Block
       openingimg= {OpeningsIcon_5}
         title="Mainframe Developer"
@@ -115,6 +123,7 @@ function Drop() {
           
         </div>
       </Block>
+      </ScrollIntoView>
     </div>
     
   );

@@ -22,7 +22,7 @@ const BorgosTeam = () => {
                         We employ a team of highly accomplished,
                         passionate technologists who contribute to the overall
                         success of our company and our customers — and we’re growing.
-    We have opportunities across all disciplines, levels and locations</h5>
+    We have opportunities across all disciplines, levels<br/> and locations</h5>
                     </div>
                 </div> : <div className="borgosteambanner">
                 <img src={BannerImage} className="teamimg" alt="banner" />

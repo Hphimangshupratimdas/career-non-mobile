@@ -40,14 +40,20 @@ const Business = () => {
                     <div className="homeinfo">
                         <div className="Company">
                             <h2 className="homeheader">Company</h2>
-                            <a className="homecontext"> About Us</a>
+                            <div className="Company1">
+                            <div className="Company ">
+                            <a className="homecontext about"> About Us</a>
                             <a className="homecontext">Careers</a>
                             <a className="homecontext">Blog</a>
+                            </div>
+                            <div className="Company usa">
                             <a className="homecontext"> News</a>
                             <a className="homecontext">Partners</a>
-
+                            <a className="homecontext">Contact</a>
+                            </div>
+                            </div>
                         </div>
-                        <div className="Company usa">
+                        <div className="Company USA">
                             <h2 className="homeheader">USA</h2>
                             <h4 className="homecontext">89 Main Street, Suite 205
                             Medway, Massachusetts 02053
