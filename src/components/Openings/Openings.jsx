@@ -11,7 +11,7 @@ const Openings = () => {
 
     return (
         <div className="openingdiv">
-            <div className="openingheader">
+            <div className={ratio>=1.2?"openingheader":"openingheader5"}>
                 <h1 className={ratio>=1.2?"openingheader1":"openingheader3"}>CURRENT</h1>
                 <h1 className={ratio>=1.2?"openingheader2":"openingheader4"}>PROFILES</h1>
             </div>

@@ -9,6 +9,7 @@ import OpeningsIcon_5 from '../images/OpeningsIcon_5.png';
 import useOutsideClick from '../Tools/useOutsideClick';
 import ScrollIntoView from 'react-scroll-into-view';
 import plus from '../images/plus.png'
+import useWindowDimensions from '../Tools/Windowsize';
 import './Drop.css';
 const initialState = [false, false, false,false,false];
 function reducer(state, { type, index }) {
@@ -52,13 +53,15 @@ function Drop() {
     if ( state.find(s => s === true)){ 
     dispatch({ type: "collapse-all" })}
   });
+  const { height, width } = useWindowDimensions();
+  const ratio=width/height;
   return (
-    <div ref={allcollapseref} className="openingcontainer">
+    <div ref={allcollapseref} className={ratio>=1.2?"openingcontainer":"openingcontainer2"}>
    
     
       <Block 
       openingimg= {OpeningsIcon_1}
-        title="DevOps(3 Positions)"
+        title="DevOps Engineer(3 Positions)"
         isOpen={state[0]}
         onToggle={() => dispatch({ type: "toggle", index: 0 })}
         

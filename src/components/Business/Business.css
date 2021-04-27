@@ -25,7 +25,7 @@
 {
     align-self: flex-start;
     max-width:65%;
-    margin-top: -42%;
+    margin-top: -92%;
     margin-left: -25%;
     z-index: 1;
 }
@@ -68,15 +68,7 @@
     filter: drop-shadow(5px 5px 5px #222);
     
 }
-.imgboy2
-{
-    align-self: center;
-    margin-top: -100%;
-    width: 70%;
-    
-    -webkit-filter: drop-shadow(5px 5px 5px #222 );
-  filter: drop-shadow(5px 5px 5px #222);
-}
+
 .businesscontent
 {
     align-self: center;
@@ -93,8 +85,7 @@ display: flex;
 flex-direction: column;
 justify-content: flex-start;
     max-width: 65%;
-    margin-top: 0%;
-    
+    margin-top: 45%;
     text-align: center;
     z-index: 3;
 }
@@ -112,9 +103,10 @@ justify-content: flex-start;
     font-family: 'Poppins', sans-serif;
     font-weight:500px;
     font-size:6.5vw;
-    color: aliceblue;
+    
     -webkit-text-stroke: .2vh rgb(65, 64, 64);
-	-webkit-text-fill-color: white;
+	-webkit-text-fill-color: transparent;
+
     
 }
 .businessheader2
@@ -146,10 +138,10 @@ justify-content: flex-start;
 }
 .businesscontext1
 {
-    color: rgb(24, 23, 23);
+    color: rgb(14, 13, 13);
     font-family:  'Poppins', sans-serif;
-    font-weight:300;
-    font-size: 2vw;
+    font-size: 2.8vw;
+    font-weight: 200;
     margin-top: -3%;
 }
 .home
@@ -170,7 +162,7 @@ justify-content: flex-start;
 {
     align-self: flex-start;
     width:100% ;
-    margin-top:-10%;
+    margin-top:-25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,9 +244,9 @@ width: 30%;
 }
 .topdash
 {
-    width: 40%;
+    width: 55%;
     height: 1vh;
-    background-color: blue;
+    background-color: rgb(35, 64, 128);
     align-self: center;
 }
 .homeinfo
@@ -262,7 +254,7 @@ width: 30%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 
     width: 100%;
     align-self: flex-start;
@@ -272,9 +264,10 @@ width: 30%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    align-self: flex-start;
+    align-self: center;
+    padding-left: 20%;
 }
 .Company
 {
@@ -317,7 +310,7 @@ margin-top: 14%;
 }
 .about
 {
-    width: 5vw;
+    width: 7vw;
   
 }
 .homecontext1
@@ -326,14 +319,12 @@ margin-top: 14%;
     font-family: 'Poppins', sans-serif;
     color: white;
     text-decoration: none; 
+    
 }
 .usa{
     margin-left: 2vh;
 }
-.USA
-{
-    margin-left: 10%;
-}
+
 
 .homemapdiv
 {
@@ -356,8 +347,8 @@ height: 100%;
 
 .mapdiv
 {
-    
-    width: 70%;
+
+    width: 240%;
     height: auto;
     display: flex;
     align-items: center;
@@ -400,8 +391,8 @@ height: 100%;
 
 margin-left: 0%;
 height: 100%;
-width: 20%;
-padding:0 7% 5% 0%;
+width: 30%;
+padding:0 12% 15% 0%;
 }
 .homeiocn1
 {
@@ -417,11 +408,12 @@ margin-left: 5%;
     padding: .5%;
     background-color: rgb(4, 4, 66);
    
-    align-items: flex-start;
+    align-items: center;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     padding-left:35% ;
     align-self: center;
+    margin-bottom:-1% ;
 }
 .homefooter1
 {
@@ -435,4 +427,7 @@ margin-left: 5%;
     margin-top: 5%;
 }
 
-
+.footer
+{
+    padding-left: 28%;
+}

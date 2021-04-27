@@ -1,68 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.Benefits
-{
-    
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    justify-content:center;
-    align-items: flex-start;
-    overflow: hidden;
-   margin:5% 7%;
-   
-    
-}
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ .Benefits {
+
+     display: flex;
+     flex-direction: row;
+     height: 100%;
+     width: 100%;
+     justify-content: center;
+     align-items: flex-start;
+     overflow: hidden;
+     margin: 5% 7%;
+
+
+ }
+
+ .Benefit {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+     flex-wrap: nowrap;
+     align-self: flex-start;
+     max-width: 28%;
+     margin-left: -20%;
+
+
+ }
+
+ .Benefitheader {
+
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500px;
+     font-size: 4vw;
+     margin-left: 0%;
+
+ }
+
+ .Benefitcontent {
+     font-family: 'Poppins', sans-serif;
+     font-size: .9vw;
+     font-weight: 400;
+     color: rgb(31, 31, 31);
+     max-width: 90%;
+
+     margin-top: -6.5%;
+
+ }
+
+ .benefititems {
+
+
+     margin-top: 1.5%;
+     list-style-type: none;
+     margin-left: 2.5%;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: flex-start;
+
+ }
+
+ .bf {
+
+
+     width: 6%;
+     padding-top: -2%;
+     margin-left: -6%;
+     padding-right: 2%;
+     z-index: 5;
+ }
+
+
+
+ .benefitimgdiv {
+     display: flex;
+     flex-direction: row;
+
+     max-width: 47%;
+     margin: -4% -10% 0 0%;
+     align-self: flex-start;
+
+ }
+
+/*------------------------------------------------------*/
 .Benefits1
 {
-    
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-    flex-wrap: nowrap;
-    justify-content:flex-start;
-    align-items: center;
-    margin-top: 2%;
-    overflow: hidden;
-    
-}
-.Benefit
-{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    align-self: flex-start;
-    max-width: 28%;
-    margin-left: -20%;
 
-    
-}
-.Benefit1
-{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    flex-wrap: nowrap;
+display: flex;
+flex-direction:column ;
+justify-content: flex-start;
+align-items: center;
+width: 100%;
+height: 100%;
+margin-top: 10%;
 
-    max-width: 70%;
-    z-index: 3;
-    
-    padding:0 2% 0 2%;
-    
-      
-}
-.Benefitheader
-{
-    
-    font-family: 'Poppins', sans-serif;
-    font-weight:500px;
-    font-size:4vw;
-    margin-left: 0%;
-    
 }
 .Benefitheader2
 {
@@ -72,32 +103,107 @@
     color: rgb(255, 255, 255);
     padding:0%;
     margin: 0%;
-    align-self: center;
+    text-shadow: 4px 8px 6px #000000;
     
 }
-.Benefitcontent
-{
-    font-family:  'Poppins', sans-serif;
-    font-size: .9vw;
-    font-weight:400;
-    color: rgb(31, 31, 31);
-    max-width: 90%;
-    
-    margin-top: -6.5%;
-    
-}
-.Benefitcontent2
-{
-    font-family:   'Poppins', sans-serif;
-    font-weight:300;
-    font-size: 2vw;
-    color: rgb(255, 255, 255);
-    align-self: center;
-padding:0%;
 
-    
-}
 .Benefitcontent3
+{
+    align-self: center;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+flex-wrap: wrap;
+    max-width: 90%;
+}
+
+.leave,.work,.learn
+
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2%  4% 5% 4%;
+
+
+}
+.bf1
+  {
+      
+      width: 25%;
+       
+      
+      
+  }
+  .bf2
+  {
+      
+      width: 35%;
+       
+    
+      
+  }
+  .benefititems1
+  {
+      
+  
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      align-self: center;
+      text-align: center;
+      font-family:   'Poppins', sans-serif;
+      font-size: 2.9vw;
+      font-weight: 250;
+      color: rgb(255, 255, 255);
+      text-shadow: 4px 8px 6px #000000;
+  
+      
+    }
+    .seeall
+{
+    margin-top: -5%;
+    z-index: 10;
+    width: 15%;
+    background-color: white;
+    border-radius:2.5vh;
+    align-self: center;
+    font-size:2vw;
+    margin-bottom: 3%;
+padding:1%;
+}
+.benefitimgdiv1
+{
+    display: flex;
+   width: 125%;
+    align-self: center;
+    margin-top: -81%;
+    z-index: -2;
+    
+    filter:brightness(50%)
+}
+.benefitimgdiv2
+{
+    margin-top: -215%;
+    z-index: -2;
+    width: 330%;
+    filter:brightness(50%)
+}
+/*-----------------------------------------------------*/
+
+
+
+
+
+
+ /*
+.Benefitcontent2
 {
     align-self: center;
     padding:0%;
@@ -106,91 +212,21 @@ padding:0%;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
-    
+    flex-wrap: wrap;
     max-width: 100%;
-}
-.leave,.work,.learn
 
-{
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 2%;
-    padding-bottom: 10%;
-
-}
-.benefititems
-{
-    
-
-     margin-top: 1.5%;
-    list-style-type: none;
-    margin-left: 2.5%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-  }
-  .benefititems1
-{
-    
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    align-self: center;
-    text-align: center;
-    font-family:   'Poppins', sans-serif;
-    font-size: 2.8vw;
-    font-weight: 200;
-    color: rgb(255, 255, 255);
-
-    
-  }
-  .bf
-  {
-      
-      
-      width: 6%;
-      padding-top: -2%;
-      margin-left:-6% ;
-      padding-right:2% ;
-  z-index: 5;
-    }
-  .bf1
-  {
-      
-      width: 25%;
-       align-self: center;
-      
-      
-  }
-  .bf2
-  {
-      
-      width: 35%;
-       align-self: center;
-    
-       margin-top:-20%;
-       padding: 0;
-      
-  }
-
-.benefitimgdiv
-{
-    display: flex;
-    flex-direction: row;
-    
-   max-width: 47%;
-   margin:-4% -10% 0 0%;
-    align-self: flex-start;
     
 }
-.benefitimgdiv1
+
+
+
+
+ 
+  
+
+
+
+.benefitimgdiv2
 {
     display: flex;
    width: 125%;
@@ -200,15 +236,4 @@ padding:0%;
     
     filter:brightness(50%)
 }
-.seeall
-{
-    margin-top: -10%;
-    z-index: 10;
-    width: 15%;
-    background-color: white;
-    border-radius:2.5vh;
-    align-self: center;
-    font-size:2vw;
-    
-padding:1%;
-}
+ */

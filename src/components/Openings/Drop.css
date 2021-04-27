@@ -20,7 +20,15 @@ flex-direction: column;
 justify-content:flex-start;
 align-items: center;
 }
-
+.openingcontainer2{
+  margin: 0 auto;
+  max-width:80%;
+padding: 1vmax;
+display: flex;
+flex-direction: column;
+justify-content:flex-start;
+align-items: center;
+}
 .block {
   width: 100%;
   margin-bottom: 10px;
@@ -33,7 +41,7 @@ align-items: center;
   width: 8%;
   margin: 0%;
   height: 100%;
-  background-color: rgb(91, 121, 253);
+  background-color: #044284;
   padding: 1.2% 1.2%;
 }
 .last{
@@ -44,7 +52,7 @@ align-items: center;
 
 .btn {
   
-  background: linear-gradient(90deg, rgba(2,7,98,0.9976365546218487) 0%, rgba(58,14,251,0.9976365546218487) 100%);
+  background: linear-gradient(90deg, rgba(8, 27, 56, 0.998) 0%, rgba(31, 90, 201, 0.998) 100%);
   box-shadow: none;
   width: 90%;
   padding:0%;
@@ -63,7 +71,7 @@ align-items: center;
 {
   content: "";
   height: 5px;
-  background-color: #ff8a04;
+  background-color:#ff6a30;
   transition: 0.5s cubic-bezier(0.68, 0, 0.265, 1) all;
 
 }
@@ -78,7 +86,7 @@ align-items: center;
   justify-content: space-between;
   color: rgb(255, 255, 255);
   font-family: 'Poppins', sans-serif;
-  font-size: 1.2vw;
+  font-size: 2.5vmin;
   font-weight: 300;
   margin:0%;
   padding: 0%;
@@ -100,11 +108,13 @@ button {
   } 
 
 .content{
-  padding: 15px 10px 10px 10px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   font-family:  'Poppins', sans-serif;
   align-self: center;
   display: flex;
   justify-content: center;
+  
 }
 
 

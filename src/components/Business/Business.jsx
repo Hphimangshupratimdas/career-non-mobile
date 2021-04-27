@@ -38,70 +38,59 @@ const Business = () => {
                         <div className="topdash" />
                     </div>
                     <div className="homeinfo">
-                        <div className="Company">
-                            <h2 className="homeheader">Company</h2>
-                            <div className="Company1">
-                            <div className="Company ">
-                            <a className="homecontext about"> About Us</a>
-                            <a className="homecontext">Careers</a>
-                            <a className="homecontext">Blog</a>
-                            </div>
-                            <div className="Company usa">
-                            <a className="homecontext"> News</a>
-                            <a className="homecontext">Partners</a>
-                            <a className="homecontext">Contact</a>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="Company USA">
+                      
+                        <div className="Company usa">
                             <h2 className="homeheader">USA</h2>
                             <h4 className="homecontext">89 Main Street, Suite 205
-                            Medway, Massachusetts 02053
+                            Medway,
+                <br/>Massachusetts 02053<br/>
                             Phone:+1 (508)-458-5485
                         E-mail: sales@borgos.in</h4>
                         </div>
-                        <div className="Company usa">
-                            <h2 className="homeheader">Bengaluru</h2>
-                            <h4 className="homecontext">91 Springboard Business Hub Pvt Ltd,
-                            512/10, Dhaaruni Commercial,
-                            Service Lane, Outer Ring Road,
-                            Mahadevapura, Bengaluru-560048
-                            Phone: +91-9435343434
-                        E-mail: sales@borgos.in</h4>
+                        <div className="Company">
+                        <h2 className="homeheader">Company</h2>
+                        <div className="Company1">
+                        <div className="Company ">
+                        <a className="homecontext about"> About Us</a>
+                        <a className="homecontext">Careers</a>
+                        <a className="homecontext">Blog</a>
                         </div>
                         <div className="Company usa">
-                            <h2 className="homeheader">Guwahati</h2>
-                            <h4 className="homecontext">167, Opp NRL Petrol Pump,
-                            Jayanagar, Sixmile, Guwahati 781022
-                            Phone: +91-6002200816, +91-361-7961597
-                        E-mail: sales@borgos.in</h4>
+                        <a className="homecontext"> News</a>
+                        <a className="homecontext">Partners</a>
+                        <a className="homecontext">Contact</a>
                         </div>
-
+                        </div>
+                    </div>
+                       
+                      
                     </div>
                     <div className="homemapdiv">
                         <div className="homemapdivleft">
-                            <div className="Company ">
-                                <h2 className="homeheader">Services</h2>
-                                <a className="homecontext"> Managed Cloud Services</a>
-                                <a className="homecontext">DevOps & Continuous Delivery </a>
-                                <a className="homecontext">Big Data Services</a>
-                                <a className="homecontext"> NewsBusiness Applications</a>
-                                <a className="homecontext">Testing & QA Services</a>
-                            </div>
+                        <div className="Company usa">
+                        <h2 className="homeheader">Bengaluru</h2>
+                        <h4 className="homecontext">91 Springboard Business Hub Pvt Ltd,
+                        512/10, Dhaaruni Commercial,
+                        Service Lane, Outer Ring Road,
+                        Mahadevapura, Bengaluru-560048
+                        Phone: +91-9435343434
+                    E-mail: sales@borgos.in</h4>
+                    </div>
 
-                            <div className="Company">
-                                <h2 className="homeheader">Product Engineering </h2>
-                                <a className="homecontext"> XD Design Studio</a>
-                                <a className="homecontext">Product & Cloud Platform </a>
-                                <a className="homecontext">Product & Platform Development</a>
+                    <div className="Company usa">
+                    <h2 className="homeheader">Guwahati</h2>
+                    <h4 className="homecontext">167, Opp NRL Petrol Pump,
+                    Jayanagar, Sixmile, Guwahati 781022
+                    Phone: +91-6002200816, +91-361-7961597
+                E-mail: sales@borgos.in</h4>
+                </div>
 
-                            </div>
-                            <div className="Company">
+                            <div className="Company usa">
                                 <h2 className="homeheader">Social Media </h2>
                                 <div className="social">
                                     <img className="homeiocn" src={facebook} alt="facebook" />
                                     <img className="homeiocn" src={linkedin} alt="facebook" />
-                                    <img className="homeiocn" src={skype} alt="facebook" />
+                                    
                                 </div>
                             </div>
 
@@ -111,7 +100,7 @@ const Business = () => {
 
                     </div>
                     <div className="homefooter">
-                        <h4 className="homecontext">© 2021 Borgos Technologies Pvt Ltd    </h4>
+                        <h4 className="homecontext footer">© 2021 Borgos Technologies Pvt Ltd    </h4>
                     </div>
                 </div>
 
@@ -134,7 +123,7 @@ const Business = () => {
 
                 <img src={BorgosTree2} className="treebg2" alt="" />
                 <img src={AdBackground} className="AdBackground" alt="" />
-                <img src={AdImage} className="imgboy2" alt="" />
+                
                 <div className="home1">
                     <img src={home} className="homebg1" alt="home" />
                     <div className="homecontain1">
@@ -176,42 +165,29 @@ const Business = () => {
                         </div>
                         <div className="homeinfo1">
 
+                       
                             <div className="Company">
-                                <h2 className="homeheader1">Company</h2>
-                                <a className="homecontext1"> About Us</a>
-                                <a className="homecontext1">Careers</a>
-                                <a className="homecontext1">Blog</a>
-                                <a className="homecontext1"> News</a>
-                                <a className="homecontext1">Partners</a>
-
-                            </div>
+                        <h2 className="homeheader1">Company</h2>
+                        <div className="Company1">
+                        <div className="Company ">
+                        <a className="homecontext1 about"> About Us</a>
+                        <a className="homecontext1">Careers</a>
+                        <a className="homecontext1">Blog</a>
+                        </div>
+                        <div className="Company usa">
+                        <a className="homecontext1"> News</a>
+                        <a className="homecontext1">Partners</a>
+                        <a className="homecontext1">Contact</a>
+                        </div>
+                        </div>
+                    </div>
                             <div className="Company usa">
-                                <h2 className="homeheader1">Services</h2>
-                                <a className="homecontext1"> Managed Cloud Services</a>
-                                <a className="homecontext1">DevOps & Continuous Delivery </a>
-                                <a className="homecontext1">Big Data Services</a>
-                                <a className="homecontext1"> NewsBusiness Applications</a>
-                                <a className="homecontext1">Testing & QA Services</a>
-                            </div>
-
-                            <div className="Company">
-                                <h2 className="homeheader1">Product Engineering </h2>
-                                <a className="homecontext1"> XD Design Studio</a>
-                                <a className="homecontext1">Product & Cloud Platform </a>
-                                <a className="homecontext1">Product & Platform Development</a>
-
-                            </div>
-                            <div className="Company">
                                 <h2 className="homeheader1">Social Media </h2>
-                                {ratio>=1.2?  <div className="social">
-                                    <img className="homeiocn" src={facebook} alt="facebook" />
-                                    <img className="homeiocn" src={linkedin} alt="facebook" />
-                                    <img className="homeiocn" src={skype} alt="facebook" />
-                                </div>:<div className="social2">
-                                <img className="homeiocn" src={facebook} alt="facebook" />
+                              <div className="social2">
+                                <img className="homeiocn1" src={facebook} alt="facebook" />
                                 <img className="homeiocn1" src={linkedin} alt="facebook" />
-                               <br/><span/> <img className="homeiocn" src={skype} alt="facebook" />
-                            </div>}
+                               
+                            </div>
                             </div>
 
 
@@ -219,7 +195,7 @@ const Business = () => {
                     </div>
 
                     <div className="homefooter1">
-                    <h4 className="homecontext1">© 2021 Borgos Technologies Pvt Ltd    </h4>
+                    <h4 className="homecontext1 footer">© 2021 Borgos Technologies Pvt Ltd    </h4>
                 </div>
                 </div>
 
